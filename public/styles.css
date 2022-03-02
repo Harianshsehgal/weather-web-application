@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(214, 225, 231);
+    background: url('Img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.weatherCard{
+background: #f0f8ff63;
+padding: 15px;
+margin: auto;
+border-radius: 15px;
+width: fit-content;
+
+}
+h2{
+    margin: 0px;
+}
+
+.SearchBar{
+    text-align: center;
+    margin:100px 15px 45px 15px;
+}
+.weatherParameters
+{display: flex;}
+
+
+.weatherIcon{
+    border-radius: 24px;
+}
+.weatherIconDiv{
+    margin: 10px;
+}
+.weatherdataTemp{
+    display: flex;
+}
+.weatherTemp{
+    margin: 10px;
+}
+#inputBox{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#searchBtn{
+    margin: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:rgb(216 238 249 / 52%);
+    border: 0px;
+}
